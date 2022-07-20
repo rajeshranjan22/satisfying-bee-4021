@@ -1,0 +1,53 @@
+div{
+    display: flex;
+    justify-content: space-between;
+}
+#first{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px 0px 100px;
+}
+#second{
+    gap: 10px;
+    margin: 0px 60px 0px 0px;
+}
+#first p{
+    margin: -6px 0px 0px 10px;
+    font-size: 15px;
+}
+#first button{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+img{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+#second button{
+    border: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin: auto;
+    padding: 10px 15px 10px 15px;
+    background-color: white;
+    cursor: pointer;
+    caret-color: blue;
+}
+#second button:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#second #trial{
+    border: 1px solid blue;
+    color: blue;
+}
+#second #demo{
+    background-color: blue;
+    color: white;
+}
