@@ -1,0 +1,195 @@
+ div{
+    display: flex;
+    justify-content: space-between; 
+ }
+ #rj{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 5;
+    top: 0px;
+ }
+#first{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px 0px 100px;
+}
+#second{
+    gap: 10px;
+    margin: 0px 60px 0px 0px;
+}
+#first p{
+    margin: -10px 0px 0px 10px;
+    font-size: 15px;
+}
+#first button{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+#first img{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+#second button{
+    border: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin: auto;
+    padding: 10px 15px 10px 15px;
+    background-color: white;
+    cursor: pointer;
+    caret-color: blue;
+}
+#second button:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#second #trial{
+    border: 1px solid blue;
+    color: blue;
+}
+#second #demo{
+    background-color: blue;
+    color: white;
+}
+
+
+#main{
+    display: flex;
+    margin-top: 100px;
+    
+}
+#mid{
+    flex-direction: column;
+    width: 35%;
+    padding-left: 50px;
+}
+#pic img{
+    width: 500px;
+    height: 500px;
+    margin: 100px 30px 0px 0px;
+}
+#btn{
+    margin: 0px 150px 150px 0px;
+}
+#mid #book{
+    width: 150px;
+    height: 50px;
+    border: 1px solid blue;
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#mid #free{
+    width: 150px;
+    height: 50px;
+    border: 1px solid blue;
+    color: blue;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#btn #dj {
+    flex-direction: column;
+    padding-bottom: 90px;
+}
+#btn #dk{
+    flex-direction: column;
+    padding-bottom: 90px;
+}
+#btn p{
+   color: blue;
+   padding-top: -8px;
+}
+marquee img{
+    width: 150px;
+    height: auto;
+    margin: 0px 30px 0px 30px;
+}
+#slide{
+    width: 70%;
+    margin: auto;
+    margin-top: -350px;
+}
+marquee{
+    gap: 20px;
+}
+#video{
+    justify-content: center;
+    margin-top: -100px;
+}
+
+#center{
+    width: 36%;
+    flex-direction: column;
+    margin: 100px 0px 0px 500px;
+}
+#image{
+    width: 50%;
+    margin: auto;
+    margin-top: 32px;
+}
+#center h2{
+    padding-left: 150px;
+    margin-bottom: -10px;
+}
+#up{
+    width: 8%;
+    margin:-610px 500px 2000px 310px;
+}
+#down{
+    width: 8%;
+    margin: -1650px 1000px 0px 1050px;
+}
+
+#mid{
+    width: 36%;
+    flex-direction: column;
+    margin: 100px 0px 0px 500px;
+}
+#mid h2{
+    padding-left: 150px;
+    margin-bottom: -10px;
+}
+#parent{
+    display: flex;
+    width: 75%;
+    height: 500px;
+    margin-top: -40px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+#parent>div{
+    width: 150px;
+    height: 150px;
+    flex-basis: 22%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin:50px 0px 50px 0px;
+    flex-direction: column;
+}
+#parent>div>img{
+    width: 15%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: 15px 0px 0px 10px;
+}
+#parent>div p{
+    padding-bottom: 150px;
+    padding-left: 15px;
+    width: 150px;
+}
+
+
+
+
+
