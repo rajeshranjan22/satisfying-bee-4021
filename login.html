@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmatBot | AI Chatbot for all your business needs</title>
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+    ">
+    <link rel="icon" type="image/png" href="https://www.smatbot.com/favicon.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://www.smatbot.com/favicon.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.smatbot.com/favicon.png" sizes="96x96">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"> -->
+    <style>
+        body {
+            background-color: rgba(248, 248, 249, 255);
+            font-family: 'Quicksand', sans-serif;
+
+        }
+
+        .main {
+            background-color: rgba(251, 253, 254, 255);
+            width: 60%;
+            height: 70%;
+            margin: 50px auto;
+
+            border-radius: 10px;
+            text-align: center;
+
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        #l1 {
+            float: left;
+            width: 70%;
+            border-radius: 20px 0px 0px 20px;
+            background-color: white;
+            height: 680px;
+
+        }
+
+        #l2 {
+            float: left;
+
+        }
+
+        #l1>h2 {
+            text-align: left;
+            width: 50%;
+            /* border: 1px solid red; */
+            
+        }
+
+        #l1>h2>a {
+            background-color: rgba(245, 246, 245, 255);
+            border-radius: 5px;
+            color: black;
+            text-decoration: none;
+            margin: 10%;
+            padding: 10px;
+            font-size: 20px;
+            margin-left: 300px;
+            
+        }
+
+        #l1>h2>a:hover {
+            background-color: teal;
+            color: white;
+            border-radius: 5px;
+
+        }
+
+        #l1>img {
+            width: 150px;
+            margin-right: 240px;
+            /* border: 1px solid pink; */
+            text-align: left;
+            
+        }
+
+        #l1 h2 {
+            font-family: 'Quicksand', sans-serif;
+            padding-left: 130px;
+        }
+        #l1 h5{
+            padding-right: 80px;
+        }
+
+        #input input {
+            width: 60%;
+            height: 40px;
+            border: none;
+            background-color: rgba(255, 255, 255, 255);
+            font-size: 20px;
+            border-bottom: 2px solid gray;
+        }
+        #input>p{
+            margin-left: 125px;
+            /* border: 1px solid black; */
+            width: 20%;
+            text-align: left;
+            font: 20px montserrat;
+            margin-bottom: 10px;
+        }
+
+        #remember {
+            float: left;
+            font-weight: bold;
+
+        }
+
+        #forgot {
+            float: right;
+            margin: 0px
+            
+        }
+
+        button {
+            background-color: rgb(42, 42, 233);
+            font-size: 20px;
+            color: white;
+            border: 1px solid rgb(42, 42, 233);
+            width: 150px;
+            padding: 5px;
+            margin: 40px 0px 0px 0px;
+            border-radius: 7px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: rgb(42, 42, 233);
+        }
+
+        #l2 {
+            width: 30%;
+            background-color: rgba(2, 5, 219, 255);
+            border-radius: 0px 10px 10px 0px;
+            /* border: 2px solid yellow; */
+            height: 480px;
+            margin-top: 130px;
+        }
+
+        .placeicon {
+            font-family: fontawesome;
+            border: none;
+            /* border-bottom: 2px solid red; */
+        }
+
+        #overflow {
+            display: block;
+            /* overflow-y: scroll; */
+            background-color: rgba(2, 5, 219, 255);
+            color: white;
+            height: 200px;
+            text-align: left;
+            margin: 10px;
+
+            /* scrollbar-color: rgba(210, 210, 210, 255) white; */
+
+        }
+
+        #latest {
+            color: white;
+            text-align: left;
+            margin-left: 10px;
+            /* border: 2px solid red; */
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div id="l1">
+            <h2> <a href="index.html">Home</a></h2>
+            <img src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/main_logo_with_text.png" />
+            <h2 style="color: rgb(34, 66, 184);">Welcome Back</h2>
+            <h5>Please login to continue to access for Dashboard</h5>
+            <div id="input">
+                <p style="color: rgb(34, 66, 184);">Email Address</p>
+                <input type="email" class="placeicon" placeholder= "Enter Your Business Email" /><br /><br />
+                <p style="color: rgb(34, 66, 184);">Password</p>
+                <input type="password" class="placeicon" placeholder="Enter your password"                                                &#xf06e;" />
+            </div>
+            <div style=" margin: 40px  130px;">
+                <div id="remember">
+
+                    <input type="checkbox" id="remember">
+                    <label>Remember me</label>
+
+                </div>
+                <p id="forgot" ><a href="#" style="color: red; text-decoration: none;">Forgot Password?</a></p>
+
+                <div class="clear"></div>
+                <button>sign in</button>
+                <p style="margin-bottom: 2px;">New to the Product ? <span><a href="signup.html"
+                            style="text-decoration: none;">Sign Up</a></span></p>
+                            <p style="color: blue;">Home
+                                |
+                                WhatsApp
+                                |
+                                Pricing</p>
+
+            </div>
+
+        </div>
+
+
+        <div id="l2">
+
+            <!-- <img src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/login_right_side_bg.png" /> -->
+            <div>
+                <h3 id="latest"> Feature Updates</h3> <hr/>
+                <div id="overflow">
+
+
+                    <p> Android App <br />SmatBot mobile application is now live on the android play store. Your live
+                        agents can now answer user queries on the go.</p>
+                    
+                    <p> Departments<br />
+
+                        Organise your live chat agents based on their roles and responsibilities like sales, support,
+                        tech etc.
+                    </p>
+
+                    <p> Share Files In Live Chat<br />Let users and live agents comfortably share files between them.
+                    </p>
+                    <p>Supervisor Account <br>
+                        Create a user with the role 'Supervisor' to monitor and manage your live agents in real-time.</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="clear"></div>
+
+
+    </div>
+</body>
+
+</html>
